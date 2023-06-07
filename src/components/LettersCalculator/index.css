@@ -1,0 +1,48 @@
+/* Write your code here. */
+.img {
+  width: 400px;
+}
+.main {
+  height: 100vh;
+  background-image: linear-gradient(to right, #1d976c, #93f9b9);
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  display: flex;
+  justify-content: space-between;
+}
+.heading {
+  color: #e4e7eb;
+  font-family: 'roboto';
+  font-size: 40px;
+  font-weight: bold;
+}
+.desc {
+  color: #e4e7eb;
+  font-size: 12px;
+}
+.inputEle {
+  background-color: transparent;
+  color: #e4e7eb;
+  border: #e4e7eb solid 1px;
+  height: 30px;
+  width: 250px;
+}
+.countEle {
+  height: 50px;
+  width: 150px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  padding: 10px;
+  color: #219a6f;
+  font-weight: bold;
+  font-size: 16px;
+}
+.content-cont {
+  display: flex;
+  flex-direction: column;
+}
